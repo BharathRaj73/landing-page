@@ -5,9 +5,9 @@ import { CiLocationOn } from "react-icons/ci";
 
 const Search = () => {
   return (
-    <div className="searchDiv grid gap-10 bg-gray-200 rounded-[10px] p-[3rem]">
+    <div className="searchDiv grid gap-10 bg-gray-100 rounded-[10px] p-[3rem]">
       <form action="">
-        <div className="firstDiv flex justify-between items-center rounded-[8px] gap-[10px] bg-white p-5 shadow-lg shadow-gray-700">
+        <div className="firstDiv flex justify-between items-center rounded-[8px] gap-[10px] bg-white p-5 shadow-lg shadow-gray-400">
           <div className="flex gap-2 items-center">
             <AiOutlineSearch className="text-[25px] cursor-pointer" />
             <input
